@@ -1300,3 +1300,4 @@ def add_noise_data_args(params):
     params.add_argument('--source-noise-insertion-vocab', required=False, type=int, default=0,
                         help='Vocabulary size of top frequent words for --source-noise-insertion.\n'
                         'Only effective when --source-noise-train or --source-noise-validation\n'
+                        'is turned on and --source-noise-insertion has a nonzero value.')
