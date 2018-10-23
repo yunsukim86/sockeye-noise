@@ -1,4 +1,6 @@
+# Denoising Autoencoder in Sockeye
 # Author(s): Yunsu Kim, Jiahui Geng, Miguel Graca
+# Copyright 2018 Yunsu Kim
 
 from . import config
 from . import constants as C

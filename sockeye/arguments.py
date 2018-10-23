@@ -10,6 +10,8 @@
 # an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
 # express or implied. See the License for the specific language governing
 # permissions and limitations under the License.
+#
+# Edited by Yunsu Kim (Denoising Autoencoder in Sockeye)
 
 """
 Defines commandline arguments for the main CLIs with reasonable defaults.
@@ -408,7 +410,7 @@ def add_training_io_args(params):
     add_vocab_args(params)
     add_training_output_args(params)
     add_monitoring_args(params)
-    add_noise_data_args(params)
+    add_noise_data_args(params)  # Denoising autoencoder
 
 
 def add_bucketing_args(params):
@@ -1280,6 +1282,7 @@ def add_init_embedding_args(params):
     params.add_argument('--encoding', '-c', type=str, default=C.VOCAB_ENCODING,
                         help='Open input vocabularies with specified encoding. Default: %(default)s.')
 
+# Denoising autoencoder
 def add_noise_data_args(params):
     params.add_argument('--source-noise-train', required=False, action="store_true",
                         help='Add artificial noise to source part of the training data.')

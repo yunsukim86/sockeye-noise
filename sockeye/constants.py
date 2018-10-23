@@ -10,6 +10,8 @@
 # an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
 # express or implied. See the License for the specific language governing
 # permissions and limitations under the License.
+#
+# Edited by Yunsu Kim (Denoising Autoencoder in Sockeye)
 
 """
 Defines various constants used througout the project
