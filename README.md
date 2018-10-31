@@ -11,6 +11,9 @@ If you use this code, please cite:
 - Yunsu Kim, Jiahui Geng and Hermann Ney. [Improving Unsupervised Word-by-Word Translation Using Language Model and Denoising Autoencoder](https://www-i6.informatik.rwth-aachen.de/publications/download/1075/Kim-EMNLP-2018.pdf). EMNLP 2018.
 - Felix Hieber, Tobias Domhan, Michael Denkowski, David Vilar, Artem Sokolov, Ann Clifton and Matt Post. [Sockeye: A Toolkit for Neural Machine Translation](https://arxiv.org/abs/1712.05690). arXiv preprint.
 
+If you are looking for the language model integration into cross-lingual word embedding, please go to [wbw-lm](https://github.com/yunsukim86/wbw-lm).
+
+
 ### Installation
 
 ```bash
@@ -28,6 +31,7 @@ running the following:
 > pip install .
 ```
 where `${CUDA_VERSION}` can be `75` (7.5), `80` (8.0), `90` (9.0), or `91` (9.1).
+
 
 ### Usage
 
